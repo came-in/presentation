@@ -149,6 +149,26 @@
   }
 }
 
+@media print {
+  @page {
+    size: 1920px 1080px;
+    margin: 0;
+  }
+  
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    margin: 0 !important;
+    background: white !important;
+  }
+
+  /* Optional: Force elements to break cleanly, scaling might be handled via layout */
+  .break-after-page {
+    page-break-after: always;
+    break-after: page;
+  }
+}
+
 /* === Slide-specific utilities === */
 @layer components {
   /* Card styles */

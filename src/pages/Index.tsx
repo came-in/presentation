@@ -92,9 +92,10 @@ export default function Index() {
   const ActiveSlideComponent = slides[activeSlideIndex]?.component || showcaseSlides[0].component;
 
   return (
-    <div className="h-screen flex flex-col bg-background">
-      {/* Toolbar */}
-      <Toolbar
+    <>
+      <div className="h-screen flex flex-col bg-background print:hidden">
+        {/* Toolbar */}
+        <Toolbar
         showGrid={showGrid}
         onToggleGrid={() => {
           const newShowGrid = !showGrid;
@@ -226,6 +227,22 @@ export default function Index() {
           onExit={() => setIsPresenterView(false)}
         />
       )}
-    </div>
+      </div>
+
+      {/* Print View Container (Hidden in normal mode) */}
+      <div className="hidden print:block w-[1920px]">
+        {slides.map((slide) => {
+          const Component = slide.component;
+          return (
+            <div 
+              key={slide.id} 
+              className="w-[1920px] h-[1080px] overflow-hidden break-after-page relative"
+            >
+              <Component />
+            </div>
+          );
+        })}
+      </div>
+    </>
   );
 }
