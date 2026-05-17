@@ -5,22 +5,22 @@ const team = [
   {
     name: 'Зарипов Булат',
     role: 'Team Lead',
-    image: '/team_photos/bulat.jpg',
+    image: 'team_photos/bulat.jpg',
   },
   {
     name: 'Безбородов Руслан',
     role: 'Frontend Dev',
-    image: '/team_photos/ruslan.png',
+    image: 'team_photos/ruslan.png',
   },
   {
     name: 'Ряжских Дмитрий',
     role: 'Backend Dev',
-    image: '/team_photos/dima.jpg',
+    image: 'team_photos/dima.jpg',
   },
   {
-    name: 'Илья Конов',
+    name: 'Конов Илья',
     role: 'Mentor',
-    image: '/team_photos/ilya.jpg',
+    image: 'team_photos/ilya.jpg',
   },
 ];
 

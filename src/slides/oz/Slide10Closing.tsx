@@ -23,7 +23,7 @@ export default function Slide10Closing() {
 
           <div className="mr-12 flex flex-col items-center">
             <div className="w-64 h-64 bg-white p-4">
-              <img src="/qr-code.svg" alt="QR Code" className="w-full h-full" />
+              <img src="qr-code.svg" alt="QR Code" className="w-full h-full" />
             </div>
             <p className="mt-6 text-[22px] font-bold uppercase tracking-widest text-[#FFF6E0] opacity-80">
               Платформа
