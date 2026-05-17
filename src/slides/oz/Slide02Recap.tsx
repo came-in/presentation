@@ -28,13 +28,13 @@ export default function Slide02Recap() {
           <OzCard accent="white">
             <p className="text-[14px] font-bold uppercase tracking-widest opacity-60 mb-3">Стек</p>
             <p className="text-[26px] font-bold leading-tight">
-              FastAPI, Postgres, Vector DB, Heroku, Supabase Cloud.
+              FastAPI, Postgres, pgvector, Heroku.
             </p>
           </OzCard>
         </div>
 
         <p className="text-[22px] font-medium mt-10 opacity-70">
-          MVP работал, но мэтчи «висели» — пользователи не начинали диалог.
+          В похоже сервисе (Joinee) LLM-обоснование не помогало начать диалог — появилась гипотеза находить другие подходы.
         </p>
       </div>
     </OzLayout>
