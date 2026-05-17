@@ -19,7 +19,7 @@ export default function Slide02Recap() {
               Найти «своих» под конкретную цель в соцсетях почти невозможно.
             </p>
           </OzCard>
-          <OzCard accent="coral">
+          <OzCard accent="white">
             <p className="text-[14px] font-bold uppercase tracking-widest opacity-70 mb-3">Решение v1</p>
             <p className="text-[26px] font-bold leading-tight">
               Smart Matching: Big Five + векторный поиск + LLM-обоснование.

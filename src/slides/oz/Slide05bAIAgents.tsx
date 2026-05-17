@@ -28,7 +28,7 @@ export default function Slide05bAIAgents() {
             </p>
           </OzCard>
           
-          <OzCard accent="coral" className="flex flex-col gap-4">
+          <OzCard accent="white" className="flex flex-col gap-4">
             <Link className="w-10 h-10 text-[#1A1A1A]" />
             <p className="text-[20px] font-bold leading-tight">
               Общение между AI

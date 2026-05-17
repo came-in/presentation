@@ -36,7 +36,7 @@ export default function Slide06Sessions() {
 
         <div className="grid grid-cols-3 gap-8 flex-1">
           {steps.map((s, i) => (
-            <OzCard key={i} accent={i === 1 ? 'coral' : 'white'} className="flex flex-col">
+            <OzCard key={i} accent={i === 1 ? 'white' : 'white'} className="flex flex-col">
               <div className="flex items-center justify-between mb-6">
                 <div className="border-[3px] border-[#1A1A1A] bg-[#FFF6E0] w-14 h-14 flex items-center justify-center">
                   <s.icon className="w-7 h-7" strokeWidth={2.5} />

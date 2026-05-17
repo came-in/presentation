@@ -10,27 +10,32 @@ export default function Slide10Closing() {
       </div>
 
       <div className="flex flex-col justify-center h-full px-24">
-        <p className="text-[28px] font-semibold mb-8 opacity-70 uppercase tracking-[0.2em]">
-          Спасибо
+        <p className="text-[28px] font-semibold mb-8 opacity-70 uppercase tracking-[0.2em] text-[#FFF6E0]">
+          Спасибо за внимание!
         </p>
-        <OzDisplay className="text-[180px] text-[#FFF6E0]">
-          НАЙДИ<br />
-          <span className="text-[#FF6B5B]">СВОИХ</span><br />
-          ЛЮДЕЙ.
-        </OzDisplay>
+        
+        <div className="flex justify-between items-center w-full">
+          <OzDisplay className="text-[180px] text-[#FFF6E0]">
+            НАЙДИ<br />
+            <span className="text-[#FF6B5B]">СВОИХ</span><br />
+            ЛЮДЕЙ.
+          </OzDisplay>
 
-        <div className="absolute bottom-16 left-24 right-24 flex justify-between items-end text-[#FFF6E0]">
+          <div className="mr-12 flex flex-col items-center">
+            <div className="w-64 h-64 bg-white p-4">
+              <img src="/qr-code.svg" alt="QR Code" className="w-full h-full" />
+            </div>
+            <p className="mt-6 text-[22px] font-bold uppercase tracking-widest text-[#FFF6E0] opacity-80">
+              Платформа
+            </p>
+          </div>
+        </div>
+
+        <div className="absolute bottom-16 left-24 flex items-end text-[#FFF6E0]">
           <div>
             <p className="text-[16px] font-bold uppercase tracking-widest opacity-60 mb-2">Сайт</p>
             <p className="text-[32px] font-black" style={{ fontFamily: '"Archivo Black", sans-serif' }}>
               oz.cmne.life
-            </p>
-          </div>
-          <div className="text-right">
-            <p className="text-[16px] font-bold uppercase tracking-widest opacity-60 mb-2">Команда</p>
-            <p className="text-[22px] font-semibold opacity-80">
-              Булат · Дмитрий · Башир · Вадим<br />
-              Данил · Руслан · Матвей
             </p>
           </div>
         </div>

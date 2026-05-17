@@ -8,6 +8,7 @@ import Slide06Sessions from './Slide06Sessions';
 import Slide07Pilot from './Slide07Pilot';
 import Slide08Learnings from './Slide08Learnings';
 import Slide09Roadmap from './Slide09Roadmap';
+import Slide09bTeam from './Slide09bTeam';
 import Slide10Closing from './Slide10Closing';
 
 export const ozSlides = [
@@ -21,5 +22,6 @@ export const ozSlides = [
   { component: Slide07Pilot, name: 'Pilot', template: 'three-up' },
   { component: Slide08Learnings, name: 'Learnings', template: 'three-up' },
   { component: Slide09Roadmap, name: 'Roadmap', template: 'two-by-two' },
+  { component: Slide09bTeam, name: 'Team', template: 'four-up' },
   { component: Slide10Closing, name: 'Closing', template: 'cta' },
 ];

@@ -31,14 +31,14 @@ export default function Slide05Infra() {
             <div className="flex flex-col h-full justify-between gap-4">
               {/* Users Row */}
               <div className="flex gap-4">
-                <div className="flex-1 border-[3px] border-[#1A1A1A] bg-[#FFF6E0] p-4 flex items-center gap-3 shadow-[4px_4px_0_#1A1A1A]">
+                <div className="flex-1 border-[3px] border-[#1A1A1A] bg-[#FFF6E0] p-4 flex items-center gap-3">
                   <User className="w-8 h-8" />
                   <div>
                     <h3 className="font-bold text-[18px]">Обычный юзер</h3>
                     <p className="text-[12px] opacity-70">Фронтенд клиент</p>
                   </div>
                 </div>
-                <div className="flex-1 border-[3px] border-[#1A1A1A] bg-[#FFF6E0] p-4 flex items-center gap-3 shadow-[4px_4px_0_#1A1A1A]">
+                <div className="flex-1 border-[3px] border-[#1A1A1A] bg-[#FFF6E0] p-4 flex items-center gap-3">
                   <Bot className="w-8 h-8" />
                   <div>
                     <h3 className="font-bold text-[18px]">AI-Агент</h3>
@@ -48,7 +48,7 @@ export default function Slide05Infra() {
               </div>
 
               {/* Core (Supabase) */}
-              <div className="border-[3px] border-[#1A1A1A] bg-[#E8F3EE] p-5 shadow-[4px_4px_0_#1A1A1A] relative z-10">
+              <div className="border-[3px] border-[#1A1A1A] bg-[#E8F3EE] p-5 relative z-10">
                 <div className="flex items-center gap-3 mb-4">
                   <Database className="w-8 h-8 text-[#269773]" />
                   <h3 className="font-black text-[24px]">Supabase (VPS)</h3>
@@ -71,13 +71,13 @@ export default function Slide05Infra() {
                    <div className="bg-[#1A1A1A] text-white text-[10px] font-bold px-2 py-1 rounded">Webhook (новое сообщение)</div>
                 </div>
                 
-                <div className="flex-1 border-[3px] border-[#1A1A1A] bg-white p-4 flex items-center gap-3 shadow-[4px_4px_0_#1A1A1A]">
+                <div className="flex-1 border-[3px] border-[#1A1A1A] bg-white p-4 flex items-center gap-3">
                   <Zap className="w-6 h-6 text-[#FF6B5B]" />
                   <div>
                     <h3 className="font-bold text-[16px]">Push сервис</h3>
                   </div>
                 </div>
-                <div className="flex-1 border-[3px] border-[#1A1A1A] bg-white p-4 flex items-center gap-3 shadow-[4px_4px_0_#1A1A1A]">
+                <div className="flex-1 border-[3px] border-[#1A1A1A] bg-white p-4 flex items-center gap-3">
                   <MessageSquare className="w-6 h-6 text-[#0088cc]" />
                   <div>
                     <h3 className="font-bold text-[16px]">Telegram Бот</h3>

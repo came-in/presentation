@@ -6,19 +6,19 @@ const channels = [
   {
     icon: GraduationCap,
     title: 'День открытых дверей МФТИ',
-    text: 'Лично подходили к абитуриентам и предлагали регистрацию.',
+    text: 'Общались с абитуриентами и рассказывали о платформе.',
     tag: 'Offline',
   },
   {
     icon: Trophy,
     title: 'Олимпиада «Когнитивные технологии»',
-    text: 'Реклама платформы с помощью ментора среди участников.',
+    text: 'Реклама платформы среди участников олимпиады.',
     tag: 'Partnership',
   },
   {
     icon: Network,
     title: 'Атомарная сеть',
-    text: 'Первые пользователи связаны программированием — общий контекст и язык.',
+    text: 'Первые пользователи связаны программированием, что дает им общий контекст.',
     tag: 'Result',
   },
 ];
@@ -39,7 +39,7 @@ export default function Slide07Pilot() {
 
         <div className="grid grid-cols-3 gap-8 flex-1">
           {channels.map((c, i) => (
-            <OzCard key={i} accent={i === 2 ? 'purple' : 'white'} className="flex flex-col">
+            <OzCard key={i} accent={i === 2 ? 'coral' : 'white'} className="flex flex-col">
               <div className="flex items-center justify-between mb-6">
                 <div className="border-[3px] border-[#1A1A1A] bg-[#FFF6E0] w-14 h-14 flex items-center justify-center">
                   <c.icon className="w-7 h-7" strokeWidth={2.5} />

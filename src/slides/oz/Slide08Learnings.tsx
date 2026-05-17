@@ -16,7 +16,7 @@ export default function Slide08Learnings() {
 
         <div className="grid grid-cols-3 gap-8 flex-1">
           <OzCard accent="white" className="flex flex-col">
-            <div className="border-[3px] border-[#1A1A1A] bg-[#FF6B5B] w-14 h-14 flex items-center justify-center mb-6">
+            <div className="border-[3px] border-[#1A1A1A] bg-[#FFF6E0] w-14 h-14 flex items-center justify-center mb-6">
               <AlertTriangle className="w-7 h-7" strokeWidth={2.5} />
             </div>
             <p className="text-[26px] font-black mb-3 leading-tight"
@@ -29,7 +29,7 @@ export default function Slide08Learnings() {
           </OzCard>
 
           <OzCard accent="white" className="flex flex-col">
-            <div className="border-[3px] border-[#1A1A1A] bg-[#A87BFF] w-14 h-14 flex items-center justify-center mb-6">
+            <div className="border-[3px] border-[#1A1A1A] bg-[#FFF6E0] w-14 h-14 flex items-center justify-center mb-6">
               <MessageSquare className="w-7 h-7" strokeWidth={2.5} />
             </div>
             <p className="text-[26px] font-black mb-3 leading-tight"
