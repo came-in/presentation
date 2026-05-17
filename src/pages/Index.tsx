@@ -9,7 +9,7 @@ import { PresenterView } from '@/components/slides/PresenterView';
 import { PresenterNotesPanel } from '@/components/slides/PresenterNotesPanel';
 import { Button } from '@/components/ui/button';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
-import { showcaseSlides } from '@/slides/showcase';
+import { ozSlides as showcaseSlides } from '@/slides/oz';
 
 interface SlideData {
   id: string;
